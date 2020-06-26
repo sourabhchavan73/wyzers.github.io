@@ -25,6 +25,12 @@ a:hover{
     color: inherit;
 }
 
+.login-form-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .login-form-card {
     margin:  15% 0;
     border-radius: 15px;
