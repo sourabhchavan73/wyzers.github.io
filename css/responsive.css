@@ -57,6 +57,10 @@
         font-size: 10px;
     }
 
+    .page-forms ::placeholder {
+        font-size: 10px;
+    }
+
 }
 
 @media only screen and (min-device-width : 767px) and (max-device-width : 786px) {
