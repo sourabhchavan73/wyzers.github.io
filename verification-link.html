@@ -1,0 +1,62 @@
+<html lang="en">
+    <head>
+      <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <title>wayzer</title>
+      </head>
+      <body>
+
+      <section class="login-form-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-9 col-sm-12 forms-section-col mx-auto">
+              <div class="login-form-card text-center">
+                  <div>
+                    <img class="login-form-logo" src="images/logo.png" alt="">
+                  </div>
+
+                  <h5 class="pass-change-title">Verification code sent on email</h5>
+                  <p class="linked-mail-title">Check your email ID <br>
+                    saq****************@gmail.com</p>
+
+                  <form autocomplete="off" action="">
+                    <div class="otp-input-section">
+                        <input type="password" id="first" size="4" onkeyup="movetoNext(this, 'second')" maxlength="1"  />
+                        <input type="password" id="second" size="4" onkeyup="movetoNext(this, 'third')" maxlength="1" />
+                        <input type="password" id="third" size="4" onkeyup="movetoNext(this, 'fourth')" maxlength="1" />
+                        <input type="password" id="fourth" size="4" onkeyup="movetoNext(this, 'five')" maxlength="1" />
+                        <input type="password" id="five" size="5" maxlength="1"/>
+                    </div>
+                      
+                    <a href="#" class="">
+                        <button type="button" class="form-submit-button backto-login-btn">Go Back To Login</button>
+                    </a>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            function movetoNext(current, nextFieldID) {
+            if (current.value.length >= current.maxLength) {
+            document.getElementById(nextFieldID).focus();
+            }
+            }
+            </script>  
+    </body>
+</html>

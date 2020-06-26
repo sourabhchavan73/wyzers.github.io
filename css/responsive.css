@@ -1,0 +1,88 @@
+@media(max-width:576px){
+    .login-in-input {
+        width: 80%;
+    }
+
+    .create-forget-pass-section {
+        padding: 0 23px
+    }
+
+    .login-form-section {
+        height: 100vh;
+        display: flex;
+        align-items: self-start;
+    }
+
+    .login-form-card {
+        margin: 18% 0;
+        padding: 3.5em 0;
+    }
+
+    .forms-section-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .select-workspace-section {
+        padding: 0 2em;
+        margin-top: 1rem;
+    }
+
+    .forget-password-form {
+        margin: 2rem 0;
+    }
+
+    .pass-change-title {
+        font-size: 13.5px;
+        padding-top: 1rem;
+    }
+
+    .create-forget-title {
+        font-size: 11px;
+    }
+
+    .login-back-title {
+        font-size: 11.5px;
+    }
+    
+    .forms-title {
+        font-size: 12px;
+    }
+
+    .mail-suggestion-title {
+        position: absolute;
+        right: 42px!important;
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 786px) {
+    .mail-suggestion-title {
+        position: absolute;
+        right: 94px!important;
+    }
+}
+
+
+@media(max-width:1200px){
+    .forms-section-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .login-form-section {
+        height: 100vh;
+        display: flex;
+        align-items: self-start;
+    }
+
+    .mail-suggestion-title {
+        position: absolute;
+        right: 123px;
+    }
+}
