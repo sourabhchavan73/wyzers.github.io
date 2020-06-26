@@ -7,11 +7,7 @@
         padding: 0 23px
     }
 
-    .login-form-section {
-        height: 100vh;
-        display: flex;
-        align-items: self-start;
-    }
+
 
     .login-form-card {
         margin: 18% 0;
@@ -79,11 +75,7 @@
         max-width: 60%;
     }
 
-    .login-form-section {
-        height: 100vh;
-        display: flex;
-        align-items: self-start;
-    }
+
 
     .mail-suggestion-title {
         position: absolute;
